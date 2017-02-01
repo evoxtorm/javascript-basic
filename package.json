@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec -r jsdom-global/register"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/cherimarie/first-unit-tests#readme",
   "devDependencies": {
+    "jsdom": "9.9.1",
+    "jsdom-global": "2.1.1",
     "mocha": "^3.2.0"
   }
 }
