@@ -1,5 +1,5 @@
 var assert = require('assert');
-var thingToTest = require('../index.js');
+var thingToTest = require('../battleship.js');
 
 describe('Array', function() {
   describe('#indexOf()', function() {
